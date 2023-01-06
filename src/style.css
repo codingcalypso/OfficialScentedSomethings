@@ -1,9 +1,46 @@
 body {
-    background-color: antiquewhite;
+  background-color: rgb(212, 196, 150);
+}
+h1 {
+  margin: 50px;
+  font-size: 48px;
+}
+.featured-content {
+  border: 10px #f9edcf solid;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  margin-left: 150px;
+  height: 100%;
+}
+.featured-frag {
+  width: 300px;
+  rotate: 90deg;
+  border-radius: 10px;
+  border: 10px white solid;
+}
+.featured-text {
+  margin: 10px 10px 10px 10px;
+  width: 93%;
+  text-align: center;
 }
 .main-design {
-    background-color: white;
-    border-radius: 10px;
-    margin: 20px auto;
-    padding: 20px 0 20px 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 20px 20px 30px;
+}
+.main-design-imgs {
+  width: 280px;
+  rotate: 90deg;
+  filter: grayscale(1);
+}
+.main-design-imgs:hover {
+  filter: grayscale(0);
+}
+.main-text {
+  margin-left: 50px;
+}
+.navbar {
+  background-color: #efcda0;
 }
