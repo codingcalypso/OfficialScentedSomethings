@@ -1,6 +1,6 @@
 body {
   background-color: #4b2c34;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -8,19 +8,15 @@ h1 {
   color: #447878;
   margin: 50px;
   font-size: 36px;
-  font-family: 'Fjalla One', sans-serif;
-}
-.container {
-  background-color: white;
+  font-family: "Fjalla One", sans-serif;
 }
 .featured-content {
- background: linear-gradient(180deg, rgb(255, 255, 255) 0%, #ddddbb 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, #ddddbb 100%);
   border: 5px #4b2c34 solid;
   border-radius: 10px;
   text-align: center;
-  width: 80%;
-  margin-left: 20px;
-
+  width: 50%;
+  margin-left: 150px;
 }
 .featured-frag-img {
   rotate: 90deg;
@@ -30,27 +26,19 @@ h1 {
   width: 93%;
   text-align: center;
 }
+.main-content {
+  background-color: white;
+}
 .main-design-header {
   background-color: #4b2c34;
-  height: 500px;
-  width: 800px;
-}
-.main-design-imgs {
-  width: 40%;
-  rotate: 90deg;
-  filter: grayscale(1);
-  margin-top: 50px;
-}
-.main-design-imgs:hover {
-  filter: grayscale(0);
 }
 .main-text {
-  margin-left: 50px;
+  margin-left: 150px;
 }
 .navbar {
   background-color: #ddddbb;
 }
-.navlinks a{
+.navlinks a {
   font-size: 20px;
   font-weight: bold;
   color: #447878;
@@ -59,5 +47,5 @@ h1 {
   color: #4b2c34;
 }
 .navlink a:active {
-color:#4b2c34;
+  color: #4b2c34;
 }
