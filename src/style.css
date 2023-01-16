@@ -4,6 +4,12 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+footer {
+  background-color: #eae4d1;
+}
+footer .social-links a:hover {
+  color: #4b2c34;
+}
 h1 {
   color: #447878;
   font-size: 36px;
@@ -23,6 +29,22 @@ h1 {
 }
 .featured-text {
   text-align: center;
+}
+.footer-list {
+  list-style: none;
+  text-align: center;
+}
+.footer-quick-links {
+  margin-top: 20px;
+}
+.footer-quick-links a {
+  text-decoration: none;
+  color: #4b2c34;
+  font-size: 14px;
+}
+.footer-quick-links a:hover {
+  text-decoration: none;
+  color: #447878;
 }
 .header-img {
   text-align: center;
@@ -47,6 +69,13 @@ h1 {
 }
 .navlink a:active {
   color: #4b2c34;
+}
+.social-icon {
+  margin: 0 0 0 30px;
+  color: #447878;
+  padding: 5px 8px;
+  font-size: 26px;
+  transition: all 150ms ease-in-out;
 }
 .welcome-statement {
   color: #3c3c3c;
