@@ -6,46 +6,48 @@ body {
 }
 h1 {
   color: #447878;
-  margin: 50px;
   font-size: 36px;
   font-family: "Fjalla One", sans-serif;
 }
 .featured-content {
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, #ddddbb 100%);
-  border: 5px #4b2c34 solid;
-  border-radius: 10px;
+  border-top: 25px solid #4b2c34;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.7);
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin-left: 150px;
+  margin-top: 50px;
 }
 .featured-frag-img {
   rotate: 90deg;
-  width: 200px;
+  width: 70%;
 }
 .featured-text {
-  width: 93%;
+  text-align: center;
+}
+.header-img {
   text-align: center;
 }
 .main-content {
   background-color: white;
 }
-.main-design-header {
-  background-color: #4b2c34;
-}
 .main-text {
-  margin-left: 150px;
+  margin-left: 100px;
+  width: 90%;
 }
-.navbar {
+.nav {
   background-color: #ddddbb;
 }
 .navlinks a {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
   color: #447878;
+  margin-right: 100px;
 }
 .navlinks a:hover {
   color: #4b2c34;
 }
 .navlink a:active {
   color: #4b2c34;
+}
+.welcome-statement {
+  color: #3c3c3c;
 }
